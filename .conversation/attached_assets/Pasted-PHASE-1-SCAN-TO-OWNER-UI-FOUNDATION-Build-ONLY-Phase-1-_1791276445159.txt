@@ -1,0 +1,763 @@
+PHASE 1 — SCAN TO OWNER UI FOUNDATION
+
+Build ONLY Phase 1 of my vehicle QR tag platform.
+
+IMPORTANT:
+Do not build the complete product yet.
+Do not implement backend, Supabase, authentication, payments, QR generation, call masking, admin dashboard, or database in this phase.
+
+The goal of this phase is to create a clean, premium, light, responsive frontend foundation that we will extend in later phases.
+
+==================================================
+PROJECT
+==================================================
+
+Working brand name:
+
+Scan To Owner
+
+Tagline:
+
+"Your Car. Your Privacy. One Smart QR."
+
+IMPORTANT:
+Keep the brand name in ONE central configuration file so it can easily be changed later.
+
+Do not copy any existing website's design, code, content, images, or branding.
+
+==================================================
+TECH STACK
+==================================================
+
+Use:
+
+React
+TypeScript
+Vite
+Tailwind CSS
+Lucide React
+
+Use a clean component-based architecture.
+
+Do not install unnecessary libraries.
+
+==================================================
+DESIGN STYLE — VERY IMPORTANT
+==================================================
+
+The website must be LIGHT.
+
+Do NOT create a dark website.
+
+Do NOT use black-heavy sections.
+
+Do NOT use neon gradients.
+
+Do NOT use excessive glassmorphism.
+
+Do NOT make it look like a generic AI-generated website.
+
+Style should feel:
+
+- Premium
+- Clean
+- Automotive technology
+- Trustworthy
+- Modern
+- Minimal
+- Indian startup/SaaS
+- Mobile-first
+
+Use this design system:
+
+Background:
+#F8FAFC
+
+White:
+#FFFFFF
+
+Primary text:
+#111827
+
+Secondary text:
+#64748B
+
+Border:
+#E2E8F0
+
+Primary blue:
+#2563EB
+
+Light blue:
+#EFF6FF
+
+Cyan accent:
+#06B6D4
+
+Success:
+#16A34A
+
+Warning:
+#F59E0B
+
+Danger:
+#DC2626
+
+Use blue and cyan only as accents.
+
+Use subtle shadows.
+
+Cards:
+white background
+thin border
+12–18px radius
+very subtle shadow
+
+Typography:
+Inter or another clean modern sans-serif.
+
+==================================================
+RESPONSIVE
+==================================================
+
+Mobile-first.
+
+The website must look excellent on:
+
+Mobile
+Tablet
+Laptop
+Desktop
+
+Do not simply shrink desktop layouts.
+
+Create proper mobile layouts.
+
+==================================================
+PAGES TO BUILD IN PHASE 1
+==================================================
+
+Create only these pages:
+
+1. Landing page
+/
+
+2. Pricing page
+/pricing
+
+3. How It Works
+/how-it-works
+
+4. FAQ
+/faq
+
+5. Contact
+/contact
+
+5. Login placeholder
+/login
+
+6. Vehicle setup preview
+/vehicle
+
+7. Public QR page preview
+/t/demo123
+
+Do NOT connect these to a database yet.
+
+Use realistic mock data only where necessary.
+
+==================================================
+NAVBAR
+==================================================
+
+Create a clean responsive navbar.
+
+Logo/brand:
+
+Scan To Owner
+
+Navigation:
+
+How It Works
+Pricing
+FAQ
+
+Right side:
+
+Login
+Get Your QR
+
+Mobile:
+hamburger menu
+
+Navbar should be white with subtle bottom border.
+
+Sticky navbar is okay if it looks clean.
+
+==================================================
+LANDING PAGE
+==================================================
+
+Build a premium landing page.
+
+Hero:
+
+Headline:
+
+"Your Car. Your Privacy. One Smart QR."
+
+Subheadline:
+
+"Let people contact you when your vehicle needs your attention — without displaying your phone number."
+
+Buttons:
+
+Get Your QR Tag
+
+How It Works
+
+Hero visual:
+
+Create a clean premium visual representation of a physical vehicle QR tag.
+
+IMPORTANT:
+This is only a visual mockup.
+
+Do NOT generate a fake functional QR code.
+
+Show:
+
+SCAN TO CONTACT OWNER
+
+For vehicle-related assistance
+
+Tag ID:
+STO-DEMO123
+
+Make the card look realistic and premium but simple.
+
+==================================================
+SECTION 2 — HOW IT WORKS
+==================================================
+
+Create 3 simple steps:
+
+01
+Get Your Tag
+
+02
+Activate Your Vehicle
+
+03
+Let People Contact You
+
+Use clean icons.
+
+Keep the section spacious.
+
+==================================================
+SECTION 3 — WHEN PEOPLE CAN CONTACT YOU
+==================================================
+
+Create six clean cards:
+
+No Parking
+Emergency
+Lights On
+Key Lost
+Vehicle Issue
+Other
+
+Each card should have:
+
+Icon
+Title
+Short one-line description
+
+Example:
+
+Lights On
+
+Someone notices your vehicle lights are still on.
+
+Do not use huge illustrations.
+
+==================================================
+SECTION 4 — PRIVACY
+==================================================
+
+Create a light blue/white premium section.
+
+Heading:
+
+"Your number stays private."
+
+Explain:
+
+"The QR code does not store your phone number. It connects to a secure vehicle profile."
+
+Show simple visual:
+
+QR Tag
+↓
+Secure Platform
+↓
+Owner
+
+Do not expose any real phone number.
+
+==================================================
+SECTION 5 — VEHICLE COMPATIBILITY
+==================================================
+
+Heading:
+
+"Made for the vehicles you drive."
+
+Create clean vehicle type cards:
+
+Car
+Bike
+Scooter
+SUV
+Van
+Other
+
+This is only frontend UI in Phase 1.
+
+No database.
+
+==================================================
+SECTION 6 — PRICING
+==================================================
+
+Show two pricing cards.
+
+Basic:
+
+₹399
+
+Smart:
+
+₹499
+
+Basic features:
+
+Unique QR Tag
+Vehicle Profile
+Contact Events
+Owner Dashboard
+Basic Support
+
+Smart features:
+
+Everything in Basic
+Advanced Contact Features
+Priority Support
+Future Smart Calling
+
+Make pricing cards premium but simple.
+
+Add:
+
+Get Started
+
+buttons.
+
+Do not implement payment.
+
+==================================================
+SECTION 7 — FAQ
+==================================================
+
+Create 6–8 useful FAQ questions.
+
+Examples:
+
+What is a vehicle QR tag?
+
+Can someone see my phone number?
+
+What happens when someone scans my QR?
+
+Can I use it for a bike?
+
+Can I change my vehicle later?
+
+How does the owner receive a contact request?
+
+Is the QR unique?
+
+Can I replace a lost tag?
+
+Use accordion UI.
+
+Frontend only.
+
+==================================================
+SECTION 8 — FINAL CTA
+==================================================
+
+Create a clean light-blue section.
+
+Heading:
+
+"Give your vehicle a smarter way to stay connected."
+
+Button:
+
+Get Your QR Tag
+
+==================================================
+FOOTER
+==================================================
+
+Footer should contain:
+
+Scan To Owner
+
+Your Car. Your Privacy. One Smart QR.
+
+Links:
+
+How It Works
+Pricing
+FAQ
+Contact
+Login
+
+Small copyright text.
+
+==================================================
+PRICING PAGE
+==================================================
+
+Create a dedicated premium pricing page.
+
+Show:
+
+₹399 Basic
+₹499 Smart
+
+Add feature comparison.
+
+Keep everything configurable in a central pricing config file.
+
+No payment functionality yet.
+
+==================================================
+HOW IT WORKS PAGE
+==================================================
+
+Create a clean visual explanation:
+
+1. Buy a QR tag
+2. Login with mobile
+3. Activate your tag
+4. Add your vehicle
+5. Attach QR to vehicle
+6. Someone scans it
+7. They select why they need to contact you
+8. Owner can respond
+
+Important:
+This is explanatory UI only.
+
+Do not implement these backend functions yet.
+
+==================================================
+LOGIN PAGE
+==================================================
+
+Create a beautiful login UI.
+
+Heading:
+
+"Welcome back"
+
+Input:
+
+Mobile number
+
+Button:
+
+Continue
+
+Below:
+
+"We'll send you a secure OTP."
+
+IMPORTANT:
+Do NOT implement real OTP yet.
+
+This is only the UI placeholder for Phase 1.
+
+==================================================
+VEHICLE SETUP PAGE
+==================================================
+
+Create the frontend preview of our future activation flow.
+
+Heading:
+
+"Let's set up your vehicle"
+
+Progress:
+
+Step 1 of 4
+
+Question:
+
+"What vehicle do you have?"
+
+Create large selectable cards:
+
+Car
+Bike
+Scooter
+SUV
+Van
+Other
+
+When Car is selected, show:
+
+"Select your car brand"
+
+Create a searchable/selectable UI with sample brands:
+
+Maruti Suzuki
+Hyundai
+Tata
+Mahindra
+Toyota
+Kia
+Honda
+Volkswagen
+Skoda
+MG
+Renault
+Nissan
+Jeep
+BMW
+Mercedes-Benz
+Audi
+Other
+
+Then show:
+
+"Select your vehicle colour"
+
+Colours:
+
+White
+Black
+Silver
+Grey
+Blue
+Red
+Green
+Yellow
+Orange
+Brown
+Purple
+Other
+
+Use actual colour circles/cards.
+
+When a colour is selected, update a vehicle preview card.
+
+Example:
+
+Tata Nexon
+Blue
+
+This is a frontend demo only.
+
+No database.
+
+==================================================
+PUBLIC QR PAGE
+==================================================
+
+Create:
+
+/t/demo123
+
+This represents what a person sees after scanning a real QR.
+
+Design:
+
+Logo
+
+Vehicle card:
+
+Tata Nexon
+Blue
+MP04AB1234
+
+Heading:
+
+"How can we help?"
+
+Buttons:
+
+No Parking
+Emergency
+Lights On
+Key Lost
+Vehicle Issue
+Contact Owner
+Other
+
+When clicking a reason, show a clean confirmation modal/card:
+
+"You are contacting the owner about:
+Lights On"
+
+Button:
+
+Contact Owner
+
+IMPORTANT:
+Do not display the owner's phone number.
+
+This is only frontend demonstration.
+
+==================================================
+COMPONENT STRUCTURE
+==================================================
+
+Create reusable components:
+
+Navbar
+Footer
+Button
+Card
+VehicleCard
+VehicleTypeCard
+ColorSelector
+PricingCard
+FAQAccordion
+ContactReasonCard
+QRCodeTagMockup
+SectionHeading
+
+Keep components reusable.
+
+Do not put everything into one giant file.
+
+==================================================
+CONFIGURATION
+==================================================
+
+Create a central configuration file for:
+
+brand name
+tagline
+colors
+pricing
+
+Example concept:
+
+brand.name
+brand.tagline
+pricing.basic
+pricing.smart
+
+This will allow us to rename the product later without changing dozens of files.
+
+==================================================
+IMPORTANT PERFORMANCE RULES
+==================================================
+
+Keep the project lightweight.
+
+Do not install unnecessary packages.
+
+Do not use large image libraries.
+
+Use Lucide icons.
+
+Avoid huge background images.
+
+Optimize for fast mobile loading.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Use:
+
+proper button elements
+labels
+keyboard navigation
+visible focus states
+good contrast
+semantic HTML
+
+==================================================
+DO NOT BUILD THESE YET
+==================================================
+
+Absolutely DO NOT implement:
+
+Supabase
+PostgreSQL
+Mobile OTP
+Real authentication
+Razorpay
+Payment gateway
+Real QR generation
+QR database
+Admin dashboard
+Call masking
+Exotel
+SMS
+WhatsApp API
+Notifications
+Push notifications
+iOS app
+Android app
+Subscriptions
+Analytics backend
+
+These will be separate future phases.
+
+==================================================
+FINAL REQUIREMENT
+==================================================
+
+At the end of this phase:
+
+The app must run successfully.
+
+All routes must work.
+
+No TypeScript errors.
+
+No broken links.
+
+No console errors.
+
+Responsive design must work.
+
+The UI must look polished.
+
+The website should feel like a real premium startup product, not a template.
+
+IMPORTANT:
+Do not continue into Phase 2 automatically.
+
+STOP after Phase 1 is complete.
+
+Then tell me:
+
+1. What you built
+2. Files/components created
+3. Routes created
+4. Any dependencies installed
+5. Any issues
+6. Exact command to run the app
+
+WAIT for my next instruction before implementing Phase 2.

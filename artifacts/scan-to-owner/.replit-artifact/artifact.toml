@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Scan To Owner"
+description = "A responsive frontend foundation for a vehicle QR tag service that lets people contact vehicle owners without exposing their phone number. Phase 1 includes marketing pages and interactive setup and public-tag previews, using mock data only."
+version = "1.0.0"
+id = "artifacts/scan-to-owner"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23498
+
+[services.development]
+run = "pnpm --filter @workspace/scan-to-owner run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/scan-to-owner", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/scan-to-owner/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23498"
+BASE_PATH = "/"
