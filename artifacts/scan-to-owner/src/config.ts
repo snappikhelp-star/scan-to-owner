@@ -1,28 +1,28 @@
 export const brand = {
   name: 'Scan To Owner',
   tagline: 'Your Car. Your Privacy. One Smart QR.',
-  palette: { background: '#F8FAFC', white: '#FFFFFF', text: '#111827', secondary: '#64748B', border: '#E2E8F0', blue: '#2563EB', lightBlue: '#EFF6FF', cyan: '#06B6D4', success: '#16A34A', warning: '#F59E0B', danger: '#DC2626' },
+  palette: { background: '#F6F9FC', white: '#FFFFFF', text: '#0B1220', navy: '#0B1F3A', secondary: '#5B6B7F', border: '#DCE5EF', blue: '#155EEF', sky: '#EAF4FF', softCyan: '#E9FBFF', cyan: '#00B8D9', success: '#12B76A', warning: '#F79009', danger: '#F04438' },
   pricing: { basic: 399, smart: 499 },
 };
 
 export const contactReasons = [
   { title: 'No Parking', detail: 'Your vehicle is blocking a driveway or access.', icon: 'parking' },
-  { title: 'Emergency', detail: 'There is an urgent situation to know about.', icon: 'siren' },
   { title: 'Lights On', detail: 'Your lights are still on and may drain the battery.', icon: 'light' },
+  { title: 'Emergency', detail: 'There is an urgent situation to know about.', icon: 'siren' },
   { title: 'Key Lost', detail: 'A key or item has been found near your vehicle.', icon: 'key' },
   { title: 'Vehicle Issue', detail: 'Something may need your attention.', icon: 'wrench' },
   { title: 'Other', detail: 'A helpful message about your vehicle.', icon: 'message' },
 ];
 
 export const faqs = [
-  { q: 'Will my phone number be visible to someone who scans the tag?', a: 'No. Your number is never displayed on the scan page. A visitor sends a message through a protected contact flow, so you can respond without sharing personal details.' },
-  { q: 'How does the QR tag work?', a: 'Stick the weather-resistant tag inside your vehicle. When someone scans it, they can choose a reason and send you a notification through the secure platform.' },
-  { q: 'Does the tag need a battery or charging?', a: 'No. The tag is a passive QR label with no battery, electronics, or maintenance.' },
-  { q: 'Can I use it on a bike or scooter?', a: 'Yes. Scan To Owner works with cars, bikes, scooters, SUVs, vans, and other registered vehicles.' },
-  { q: 'What happens after I order?', a: 'Your tag arrives with simple activation instructions. Add your vehicle details, attach the tag, and you are ready to go.' },
-  { q: 'Can a stranger call or message me directly?', a: 'The public scan page does not reveal a phone number and does not connect callers directly. Messages are handled through the protected platform.' },
-  { q: 'What is included in Basic and Smart?', a: 'Both plans include a vehicle QR tag and privacy-first contact. Smart adds helpful enhancements for a more informed scan experience.' },
-  { q: 'Is the tag reusable if I change vehicles?', a: 'Your tag is linked to your registered vehicle. Contact support for help updating vehicle details before moving it to a new vehicle.' },
+  { q: 'Will my phone number be visible to someone who scans the tag?', a: 'The product is designed to keep a personal number private. This demo illustrates the idea only; it does not connect a visitor with an owner.' },
+  { q: 'How does the QR tag work?', a: 'A tag is intended to open a contact page where a passerby can choose a reason to reach the owner. The scan and contact flow shown here is a non-functional preview.' },
+  { q: 'Does the tag need a battery or charging?', a: 'The concept uses a passive QR label, so no battery or charging is envisioned.' },
+  { q: 'Can I use it on a bike or scooter?', a: 'The design is intended for cars, bikes, scooters, SUVs, vans, and other everyday vehicles.' },
+  { q: 'What happens after I order?', a: 'This preview does not accept orders or activate tags. A live product would provide setup details with the tag.' },
+  { q: 'Can a stranger call or message me directly?', a: 'The design avoids displaying a personal phone number. The contact controls on this demo do not connect a call or send a message.' },
+  { q: 'What is included in Basic and Smart?', a: 'The preview shows two illustrative plan concepts. No plan, service, or feature is purchased or enabled here.' },
+  { q: 'Is the tag reusable if I change vehicles?', a: 'This demo does not link or store a tag against a vehicle. The reusable-tag concept would depend on a live setup flow.' },
 ];
 
 export const vehicleTypes = [

@@ -1,0 +1,622 @@
+PHASE 1.5 — PREMIUM UI/UX REDESIGN ONLY
+
+The Phase 1 functionality is complete.
+
+The current website feels too generic and basic.
+
+I want you to ONLY improve the visual design and user experience.
+
+DO NOT implement:
+- Supabase
+- Authentication
+- Database
+- Razorpay
+- QR generation
+- Call masking
+- Admin
+- Backend features
+
+DO NOT change the existing application architecture unnecessarily.
+
+This task is purely a PREMIUM UI/UX upgrade.
+
+==================================================
+DESIGN GOAL
+==================================================
+
+Make the website feel like a real premium automotive technology startup.
+
+It should NOT look like:
+- generic SaaS template
+- AI-generated website
+- simple Tailwind demo
+- basic blue/white business website
+
+It should feel:
+- Premium
+- Automotive
+- Modern
+- Trustworthy
+- High-tech
+- Clean
+- Confident
+- Product-focused
+
+IMPORTANT:
+
+Keep the overall website LIGHT.
+
+Do not turn it into a dark website.
+
+Use light surfaces with stronger automotive accents and visual depth.
+
+==================================================
+NEW COLOR SYSTEM
+==================================================
+
+Replace the previous overly-basic blue/white look with this refined palette:
+
+Primary:
+#155EEF
+
+Deep Navy:
+#0B1F3A
+
+Electric Cyan:
+#00B8D9
+
+Sky:
+#EAF4FF
+
+Soft Cyan:
+#E9FBFF
+
+Background:
+#F6F9FC
+
+White:
+#FFFFFF
+
+Text:
+#0B1220
+
+Secondary text:
+#5B6B7F
+
+Border:
+#DCE5EF
+
+Success:
+#12B76A
+
+Warning:
+#F79009
+
+Danger:
+#F04438
+
+IMPORTANT:
+
+Do not use all colors everywhere.
+
+Use:
+
+Deep Navy → headings, premium sections, logo details
+
+Primary Blue → primary CTA
+
+Electric Cyan → tiny accents, active states, highlights
+
+Sky/Soft Cyan → backgrounds and feature areas
+
+White → cards
+
+This should create a sophisticated light automotive identity.
+
+==================================================
+VISUAL STYLE
+==================================================
+
+Use:
+
+Large clean typography
+
+Strong spacing
+
+Premium cards
+
+Soft shadows
+
+Thin borders
+
+Subtle gradients
+
+Layered backgrounds
+
+Small geometric accents
+
+Vehicle-inspired line patterns
+
+Very subtle grid/road-line patterns where appropriate
+
+Do NOT use:
+- huge gradients
+- neon glow everywhere
+- excessive glassmorphism
+- random blobs
+- childish rounded cards
+- excessive animations
+
+The design should look expensive without looking flashy.
+
+==================================================
+HERO SECTION
+==================================================
+
+Completely improve the landing page hero.
+
+Use a split layout:
+
+LEFT:
+
+Small badge:
+
+SMART VEHICLE CONTACT
+
+Large headline:
+
+"Your Vehicle.
+Always Reachable."
+
+Highlight "Always Reachable." using Primary Blue or Cyan.
+
+Supporting text:
+
+"One smart QR tag that lets people contact you when your vehicle needs your attention — while keeping your phone number private."
+
+Buttons:
+
+Get Your QR Tag
+See How It Works
+
+RIGHT:
+
+Create a premium vehicle-focused visual.
+
+Show a realistic modern car illustration/vehicle silhouette with a physical QR tag attached to the windshield/dashboard area.
+
+Around the vehicle, show small floating UI cards:
+
+"Lights On"
+
+"No Parking"
+
+"Emergency"
+
+"Owner Contact"
+
+These should look like real product UI notifications.
+
+Do not use cartoon graphics.
+
+If using images, use optimized royalty-free/placeholder assets.
+
+Do not use copyrighted vehicle photography.
+
+==================================================
+HERO BACKGROUND
+==================================================
+
+Keep the background LIGHT.
+
+Use:
+
+#F6F9FC
+
+Add extremely subtle:
+
+blue radial glow
+cyan radial glow
+fine technical grid
+
+The effect must be barely visible.
+
+Do not make the background colorful.
+
+==================================================
+TRUST STRIP
+==================================================
+
+Immediately below hero create a premium horizontal trust strip.
+
+Example:
+
+PRIVATE BY DESIGN
+UNIQUE QR TAG
+NO PHONE NUMBER EXPOSED
+BUILT FOR EVERYDAY VEHICLES
+
+Use small icons and strong typography.
+
+==================================================
+HOW IT WORKS
+==================================================
+
+Instead of basic 3 cards, create a more premium timeline.
+
+01
+SCAN
+
+02
+SELECT A REASON
+
+03
+CONTACT THE OWNER
+
+Use a thin blue/cyan connecting line.
+
+Add a small QR visual.
+
+Make this section visually interesting.
+
+==================================================
+CONTACT REASONS
+==================================================
+
+Create a premium bento-style grid.
+
+Heading:
+
+"One tag.
+Multiple reasons to reach you."
+
+Cards:
+
+No Parking
+Lights On
+Emergency
+Key Lost
+Vehicle Issue
+Other
+
+Use different subtle light backgrounds.
+
+Example:
+
+No Parking:
+very light blue
+
+Lights On:
+very light cyan
+
+Emergency:
+very light red/pink
+
+Key Lost:
+very light amber
+
+Do not make each card extremely colorful.
+
+Use monochrome/dark icons with subtle accent backgrounds.
+
+==================================================
+PRIVACY SECTION
+==================================================
+
+Make this a major brand section.
+
+Use a light blue background.
+
+Heading:
+
+"Your number stays private."
+
+Create a visual flow:
+
+SCAN QR
+↓
+SECURE TAG
+↓
+CONTACT OWNER
+
+Add a mock phone screen showing:
+
+"Contacting vehicle owner"
+
+Do NOT show a real phone number.
+
+Add small shield/privacy visual.
+
+This section should communicate trust.
+
+==================================================
+VEHICLE SECTION
+==================================================
+
+Create a premium vehicle selector visual.
+
+Heading:
+
+"Made for your ride."
+
+Show:
+
+CAR
+SUV
+BIKE
+SCOOTER
+VAN
+
+Use large clean vehicle silhouettes/icons.
+
+When selecting a vehicle:
+
+show a vehicle preview card.
+
+Include:
+
+Tata Nexon
+Blue
+MP04AB1234
+
+This is still mock data.
+
+The vehicle preview should feel like a premium automotive configurator.
+
+==================================================
+PRICING
+==================================================
+
+Redesign pricing cards.
+
+Do not use generic SaaS pricing cards.
+
+Basic:
+
+₹399
+
+Smart:
+
+₹499
+
+Make Smart visually more prominent.
+
+Add a small badge:
+
+MOST POPULAR
+
+Use a subtle blue/cyan gradient only on the badge/accent area.
+
+Pricing cards should have:
+
+large price
+short description
+feature list
+CTA
+
+Keep whitespace generous.
+
+==================================================
+FAQ
+==================================================
+
+Make FAQ section clean and premium.
+
+Use:
+
+large question typography
+thin dividers
+smooth accordion animation
+
+Avoid boxed FAQ cards everywhere.
+
+==================================================
+FINAL CTA
+==================================================
+
+Create a strong premium CTA.
+
+Background:
+
+Deep Navy #0B1F3A
+
+This is the ONLY major dark section on the landing page.
+
+Text:
+
+"Give your vehicle a smarter way to stay connected."
+
+Supporting text:
+
+"One QR. Private contact. Peace of mind."
+
+Button:
+
+Get Your QR Tag
+
+Button can use white background with blue text.
+
+Add subtle cyan line/accent.
+
+==================================================
+NAVBAR
+==================================================
+
+Make navbar premium.
+
+White/light background.
+
+Logo area:
+
+QR-inspired minimal icon
+Scan To Owner
+
+Navigation:
+
+How It Works
+Pricing
+FAQ
+
+Right:
+
+Login
+Get Your QR
+
+Primary CTA should be visually stronger.
+
+On scroll, navbar can gain subtle shadow/backdrop.
+
+==================================================
+BUTTONS
+==================================================
+
+Improve buttons.
+
+Primary:
+
+Blue background
+white text
+subtle hover movement
+
+Secondary:
+
+white/light background
+blue border/text
+
+Buttons should have:
+
+10–12px radius
+
+not extremely rounded pills.
+
+==================================================
+CARDS
+==================================================
+
+Reduce generic rounded-card feeling.
+
+Use:
+
+12–16px radius
+
+thin borders
+
+subtle shadow
+
+strong internal spacing
+
+Some sections should use bento/grid layouts instead of every section being identical cards.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use a stronger typography hierarchy.
+
+Hero:
+
+large bold headline
+
+Section headings:
+
+large but controlled
+
+Body:
+
+comfortable readable size
+
+Use font weights intentionally.
+
+Do not make every text bold.
+
+==================================================
+ANIMATIONS
+==================================================
+
+Add subtle professional motion:
+
+fade-in
+slide-up
+hover elevation
+button micro-interactions
+
+For vehicle preview:
+
+small smooth transition when color changes.
+
+Do NOT add excessive scroll animations.
+
+==================================================
+MOBILE
+==================================================
+
+Mobile design is extremely important.
+
+Hero should stack beautifully.
+
+Vehicle visual should remain visible.
+
+Buttons should be thumb-friendly.
+
+Cards should not become cramped.
+
+Pricing should stack vertically.
+
+Navigation should use a clean mobile menu.
+
+==================================================
+IMPORTANT BRAND FEEL
+==================================================
+
+The product should communicate:
+
+"Someone needs the vehicle owner."
+
+This is NOT simply a QR-code website.
+
+The visual identity should communicate:
+
+Vehicle
+Connection
+Privacy
+Safety
+Technology
+
+==================================================
+IMPORTANT
+==================================================
+
+Do NOT rebuild the project from scratch.
+
+Do NOT change the existing routes.
+
+Do NOT add backend functionality.
+
+Do NOT install unnecessary dependencies.
+
+Reuse existing components wherever possible.
+
+Improve the existing components instead of duplicating them.
+
+Before finishing:
+
+Check every page:
+
+/
+ /pricing
+ /how-it-works
+ /faq
+ /contact
+ /login
+ /vehicle
+ /t/demo123
+
+Make sure all pages share the same premium design system.
+
+Check desktop and mobile.
+
+Check for console errors.
+
+Stop after completing the visual redesign.
+
+Do NOT start Phase 2 automatically.
